@@ -1,23 +1,34 @@
 /* link text cleaning */
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:link {
+    text-decoration: none;
+}
 
-html{
-    
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+html {
+
     background-color: black;
     font-family: 'Open Sans', sans-serif;
     color: #333;
-    background-image: url('images/bg.jpg' );
+    background-image: url('images/bg.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     line-height: 1.5;
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 }
-    
-.button{
+
+.button {
     background: #1e1e1e;
     color: white;
     border: 1px solid grey;
@@ -27,8 +38,9 @@ html{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
+
 /* landingPage */
-.title{
+.title {
     background: #1a1a1a69;
     display: flex;
     justify-content: center;
@@ -38,9 +50,11 @@ html{
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
-.loginButtons,#logoutButton{
+
+.loginButtons,
+#logoutButton {
     text-decoration: none;
     background: #1a1a1a69;
     color: #fff;
@@ -52,10 +66,11 @@ html{
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
 /* signup page */
-.signupForm{
+.signupForm {
     background: #1a1a1a69;
     display: flex;
     justify-content: center;
@@ -64,10 +79,11 @@ html{
     margin: 25% auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
 /* loginPage */
-.login{
+.login {
     background: #1a1a1a69;
     display: flex;
     justify-content: center;
@@ -77,10 +93,11 @@ html{
     margin: 25% auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
+
 /* todoPage */
-.todo{
+.todo {
     background: #1a1a1a69;
     display: flex;
     justify-content: center;
@@ -90,35 +107,39 @@ html{
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
-.todoList{
+
+.todoList {
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
     padding: 20px;
     background: #1a1a1a69;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
-.userNumber{
+
+.userNumber {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 20px;
 }
-.addTodo{
+
+.addTodo {
     width: 100%;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
     background: #1a1a1a69;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     text-align: center;
 }
-.logout{
+
+.logout {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
@@ -127,14 +148,17 @@ html{
     display: flex;
     justify-content: center;
 }
-.completed{
+
+.completed {
     text-decoration: line-through;
     color: gray;
 }
-.not{
+
+.not {
     text-decoration: underline;
 }
-#logoutButton{
+
+#logoutButton {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,8 +167,9 @@ html{
     margin: 20px auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
-.del{
+
+.del {
     color: red;
 }

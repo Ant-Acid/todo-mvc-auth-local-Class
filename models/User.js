@@ -2,15 +2,15 @@ const bcrypt = require('bcrypt') // import bcrypt
 const mongoose = require('mongoose') // import mongoose
 
 const UserSchema = new mongoose.Schema({ // create user schema
-  userName: { type: String, unique: true }, 
-  email: { type: String, unique: true },  
-  password: String 
+  userName: { type: String, unique: true },
+  email: { type: String, unique: true },
+  password: String
 })
 
 
 // Password hash middleware.
- 
- UserSchema.pre('save', function save(next) { // before saving user
+
+UserSchema.pre('save', function save(next) { // before saving user
   const user = this // set user to this
   if (!user.isModified('password')) { return next() } // if password is not modified, return next
   bcrypt.genSalt(10, (err, salt) => { // generate salt

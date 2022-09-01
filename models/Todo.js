@@ -1,7 +1,7 @@
 const mongoose = require('mongoose') // import mongoose
 
 const TodoSchema = new mongoose.Schema({ // create todo schema
-  todo: { 
+  todo: {
     type: String,
     required: true,
   },

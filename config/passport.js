@@ -21,7 +21,7 @@ module.exports = function (passport) { // export passport
       })
     })
   }))
-  
+
 
   passport.serializeUser((user, done) => { // serialize user
     done(null, user.id) // return user id
