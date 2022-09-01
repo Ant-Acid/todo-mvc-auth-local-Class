@@ -1,7 +1,7 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose') // import mongoose
 
-const TodoSchema = new mongoose.Schema({
-  todo: {
+const TodoSchema = new mongoose.Schema({ // create todo schema
+  todo: { 
     type: String,
     required: true,
   },
@@ -15,4 +15,4 @@ const TodoSchema = new mongoose.Schema({
   }
 })
 
-module.exports = mongoose.model('Todo', TodoSchema)
+module.exports = mongoose.model('Todo', TodoSchema) // export todo model
